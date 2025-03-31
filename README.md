@@ -5,9 +5,9 @@ Welcome to my repository. This includes a modified version of TechWithTim's HANG
 # Contents
 
 - HANGMAN modified code
-- IPO chart
-- Flowchart
-- Pseudocode
+- IPO chart (download needed to view)
+- Flowchart (download needed to view)
+- Pseudocode 
 - Logbook
 
 # Requirements for running code
@@ -17,3 +17,4 @@ Welcome to my repository. This includes a modified version of TechWithTim's HANG
 3. Open "hangman" folder
 4. Run modified-hangman.py
 5. Enjoy
+
