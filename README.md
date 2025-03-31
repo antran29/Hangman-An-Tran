@@ -1,27 +1,19 @@
 # Hangman-An-Tran
 
-List of Changes Made to the Code:
-Added Difficulty Selection at the Start:
+Welcome to my repository, this includes a modified version of TechWithTim's HANGMAN Python code. 
 
-Implemented a difficulty_screen() function.
-Player can choose between Easy (5 mistakes allowed) and Hard (3 mistakes allowed) modes.
+# Contents
 
-Adjusted Mistake Limits:
+- HANGMAN modified code
+- IPO chart
+- Flowchart
+- Pseudocode
+- Logbook
 
-Easy Mode: Reduced from 9 mistakes to 5.
-Hard Mode: Reduced from 6 mistakes to 3.
+# Requirements for running code
 
-Restart or Quit Option After Winning or Losing:
-
-Implemented a display_message() function that shows "You WON!" or "You LOST!" with Restart and Quit buttons.
-Clicking Restart starts a new game, and Quit exits the game.
-
-Improved Button UI:
-
-Green for Restart, Red for Quit.
-Green for Easy Mode, Red for Hard Mode.
-
-Optimized Code Structure:
-
-Ensured letter visibility resets when restarting.
-Refactored drawing and event-handling functions for cleaner execution.
+1. Install hangman folder
+2. Open Visual Studio Code
+3. Open "hangman" folder
+4. Run modified-hangman.py
+5. Enjoy
