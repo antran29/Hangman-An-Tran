@@ -1,6 +1,6 @@
 # Hangman-An-Tran
 
-Welcome to my repository, this includes a modified version of TechWithTim's HANGMAN Python code. 
+Welcome to my repository. This includes a modified version of TechWithTim's HANGMAN Python code. 
 
 # Contents
 
