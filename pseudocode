@@ -1,0 +1,66 @@
+BEGIN
+
+    Initialize Pygame
+    Set screen width and height (WIDTH, HEIGHT)
+    Create a display window with the specified width and height
+    Set window title to "Hangman Game!"
+
+    Define button variables (RADIUS, GAP, letters, etc.)
+    Set starting coordinates for letter buttons
+
+    Create a list of letters (A to Z) and store their positions
+
+    Define fonts (LETTER_FONT, WORD_FONT, TITLE_FONT, BUTTON_FONT)
+
+    Load images for hangman (7 images for hangman stages)
+
+    Define color constants (WHITE, BLACK, RED, GREEN)
+
+    Define game variables (words list, max mistakes, etc.)
+
+    FUNCTION draw:
+        - Fill the screen with white background
+        - Draw the title "DEVELOPER HANGMAN"
+        - Display the word with guessed letters and underscores
+        - Draw the letters (buttons) on the screen
+        - Draw the hangman image based on the current hangman status
+        - Update the screen
+
+    FUNCTION display_message(message):
+        - Fill the screen with white background
+        - Display the provided message (like "You WON!" or "You LOST!")
+        - Create "Restart" and "Quit" buttons
+        - Draw the buttons with text centered within them
+        - Update the screen
+        - Return the restart and quit button objects
+
+    FUNCTION main:
+        - Initialize hangman status and guessed letters
+        - Choose a random word from the words list
+        - Reset the visibility of the letter buttons
+        - Set up a game loop:
+            - For each event:
+                - If the player quits, exit the game
+                - If a letter button is clicked, check if it's in the word:
+                    - If not, increase hangman status
+                    - If yes, mark the letter as guessed
+            - Draw the game screen (word and letters)
+            - Check if the player has won (all letters guessed) or lost (max mistakes reached)
+            - If won or lost, display the message and show restart/quit options
+
+    FUNCTION handle_end_screen:
+        - Wait for the player to either restart or quit after winning or losing
+        - If restart, return True (to restart the game)
+        - If quit, return False (to exit the game)
+
+    FUNCTION difficulty_screen:
+        - Display the difficulty selection screen (Easy/Hard)
+        - Wait for the player to choose difficulty (Easy sets max mistakes to 5, Hard sets max mistakes to 3)
+        - Once the player chooses, return True to start the game
+
+    MAIN GAME LOOP:
+        - Show the difficulty selection screen
+        - Once difficulty is chosen, start the main game loop (calling main())
+        - If the game ends (either won or lost), return to the difficulty screen
+
+END
