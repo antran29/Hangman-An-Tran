@@ -5,8 +5,8 @@ Welcome to my repository. This includes a modified version of TechWithTim's HANG
 # Contents
 
 - HANGMAN modified code
-- IPO chart (download needed to view)
-- Flowchart (download needed to view)
+- IPO chart
+- Flowchart
 - Pseudocode 
 - Logbook
 
