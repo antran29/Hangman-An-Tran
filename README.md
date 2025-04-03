@@ -5,10 +5,7 @@ Welcome to my repository. This includes a modified version of TechWithTim's HANG
 # Contents
 
 - HANGMAN modified code
-- IPO chart
-- Flowchart
-- Pseudocode 
-- Logbook
+- Portfolio
 
 # Requirements for running code
 
